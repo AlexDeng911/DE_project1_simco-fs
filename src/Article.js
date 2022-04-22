@@ -4,8 +4,6 @@ import Header from "./components/header/header";
 import ArticlesList from "./pages/articlesList/articlesList";
 import ArticleItem from './pages/articleItem/articleItem';
 import sampleArticles from "./sample-articles";
-// import base from './articlesData';
-// import { render } from "@testing-library/react";
 
 class Article extends React.Component {
   state = {
@@ -20,8 +18,6 @@ class Article extends React.Component {
   loadSampleArticles = () => {
     this.setState({ articles: sampleArticles })
   }
-
-
 
   render() {
     return (
